@@ -1,0 +1,40 @@
+{
+  "name": "odin-battleship",
+  "version": "1.0.0",
+  "description": "An implementation of battleship game, where players fight to destroy each other's fleet.",
+  "keywords": [
+    "TOP",
+    "The Odin Project",
+    "BattleShip"
+  ],
+  "homepage": "https://github.com/rimanz/odin-battleship#readme",
+  "bugs": {
+    "url": "https://github.com/rimanz/odin-battleship/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rimanz/odin-battleship.git"
+  },
+  "license": "ISC",
+  "author": "Riman Das",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch file-types: *.js"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.7",
+    "css-loader": "^7.1.5",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "jest": "^30.5.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.111.0",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^5.2.6"
+  },
+  "overrides": {
+    "uuid": "^14.0.0"
+  }
+}
